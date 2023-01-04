@@ -1,0 +1,28 @@
+.main {
+  padding: 20px;
+  display: flex;
+
+  .page_number {
+    padding: 5px;
+    border: 2px solid dodgerblue;
+    border-radius: 15%;
+    margin: 0 10px;
+    min-width: 20px;
+    text-align: center;
+    cursor: pointer;
+
+    &.page_active {
+      background-color: dodgerblue;
+      color: white;
+    }
+  }
+
+  .page_dots {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 20px;
+    padding: 7px;
+    margin: 0 10px;
+  }
+}

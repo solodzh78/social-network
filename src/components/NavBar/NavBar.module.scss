@@ -1,0 +1,30 @@
+.main {
+  padding: 20px;
+  grid-area: navbar;
+  background-color: dodgerblue;
+
+  .navlink {
+    text-decoration: none;
+
+    .item {
+      color: #FFFFFF;
+      font-size: 34px;
+      line-height: 44px;
+    }
+
+    &.active {
+
+      .item {
+        color: #47525E;
+      }
+    }
+  }
+
+  .settings {
+    padding-top: 30px;
+  }
+
+  .friends {
+    padding-top: 60px;
+  }
+}

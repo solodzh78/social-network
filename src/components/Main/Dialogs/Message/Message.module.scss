@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  padding-top: 50px;
+  // background-color: olivedrab;
+  .avatar {
+    width: 152px;
+    text-align: center;
+    img {
+      width: 48px;
+    }
+
+    .user_name {
+      color: #8190A5;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
+
+  .text {
+    width: 280px;
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #C0CCDA;
+    border-radius: 10px;
+  }
+}

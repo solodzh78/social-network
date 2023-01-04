@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  padding-top: 10px;
+  // padding-top: 50px;
+  // background-color: olivedrab;
+  .avatar {
+    // width: 152px;
+    text-align: center;
+    img {
+      width: 48px;
+      border-radius: 50%;
+    }
+  }
+
+  .text {
+    width: 280px;
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #C0CCDA;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+}

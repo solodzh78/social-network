@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  padding-top: 10px;
+
+  .foto_container {
+    .foto {
+      width: 180px;
+      height: 180px;
+    }
+  }
+  .user_data {
+    width: 490px;
+    margin-left: 45px;
+
+    .user_name {
+      color: #47525E;
+      font-size: 35px;
+      line-height: 45px;
+      margin-bottom: 45px;
+    }
+
+    .user_adress {
+      color: #47525E;
+      font-size: 26px;
+      line-height: 33px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.main {
+  grid-area: header;
+  background-color: dodgerblue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 64px;
+    padding-left: 10px;
+  }
+  .login {
+    align-self: center;
+    color: white;
+    font-size: x-large;
+  }
+}

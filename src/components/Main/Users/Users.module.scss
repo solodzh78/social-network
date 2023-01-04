@@ -1,0 +1,51 @@
+.main {
+  display: grid;
+  grid-template-areas:
+    'users messages';
+  grid-template-columns: 3fr 9fr;
+  gap: 10px;
+
+  .users {
+    grid-area: users;
+
+    .title {
+      color: #47525E;
+      font-size: 26px;
+      line-height: 33px;
+      padding: 25px;
+    }
+
+    .pageNumbers {
+      padding: 3px 0;
+    }
+
+    .users_list {
+      position: relative;
+    }
+
+    // .navlink {
+      // text-decoration: none;
+
+      // .user {
+      //   color: #8190A5;
+      //   font-size: 18px;
+      //   line-height: 36px;
+      //   padding-left: 20px;
+      //   padding-top: 20px;
+      // }
+
+      // &.active {
+      //   .user {
+      //     color: #343F4B;
+      //     font-size: 24px;
+      //     line-height: 36px;
+      //   }
+      // }
+    // }
+  }
+
+  // .messages {
+  //   grid-area: messages;
+  //   border-left: 1px solid #7E55F3;
+  // }
+}

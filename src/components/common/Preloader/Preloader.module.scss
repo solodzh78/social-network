@@ -1,0 +1,16 @@
+.main {
+  width: calc(100vw - 250px);
+  max-width: 950px;
+  height: 100%;
+  top: 0;
+  left: 250px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  @media (min-width: 1200px) {
+    left: calc(250px + (100vw - 1200px)/2)
+  }
+}
